@@ -1,0 +1,16 @@
+
+/* Cambié la fuente */
+/* 
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: rgba(243, 239, 239, 0.933);
+}  
+*/
+/* Cambié el tamaño de las cards y el border radius */
+.card {
+  background: #000000;
+  background: linear-gradient(to left, #FFFFFF, #eeebeb);
+
+}

@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VideoWeb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <!-- Cabeza de Página -->
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <img src="assets/icono.png" alt="Bootstrap" width="30" height="24">
+    <a class="navbar-brand" href="index.html">VideoWeb</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">Destacados</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Peliculas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Acción</a></li>
+			<li><a class="dropdown-item" href="#">Humor</a></li>
+            <li><a class="dropdown-item" href="#">Suspenso</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Destacadas</a></li>
+          </ul>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Series
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Acción</a></li>
+			<li><a class="dropdown-item" href="#">Humor</a></li>
+            <li><a class="dropdown-item" href="#">Suspenso</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Destacadas</a></li>
+          </ul>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link disabled">Adultos</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">Precios</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">FAQs</a>
+        </li>
+      </ul>
+	  <nav class="navbar bg-light">
+  <form class="container-fluid justify-content-start">
+    <button class="btn btn-outline-success me-2" type="button">Login</button>
+    <button class="btn btn-sm btn-outline-secondary" type="button">Registrarse</button>
+  </form>
+</nav>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  <!-- Fin Barra de Navegación -->
+  
+  <!-- Cuerpo de Página -->
+  
+  <!-- Carrusel -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/carrusel-1.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Peliculas</h5>
+        <p>Mira las últimas peliculas estreno en vivo.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/carrusel-2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Series</h5>
+        <p>Mira las últimas series estreno en vivo.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/carrusel-3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Destacados de la semana</h5>
+        <p>Mira las peliculas destacadas de la semana en vivo.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+	<!-- Fin Carrusel -->
+	
+	<!-- Contenedor -->
+	<div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/Mi-villano-favorito-poster.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">Mi villano favorito es una película animada francesa-estadounidense realizada por computadora. Dirigida por Pierre Coffin (el creador de Pat y Stan) y Chris Reanud, distribuida por Universal Pictures y su nueva filial de animación digital, Illumination Entertainment.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="villano.html">Ver</a>
+                </div>
+                <small class="text-muted">3 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/IceAge.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">La era de hielo (Ice Age) es una película animada del 2002 dirigida por Chris Wedge. </p><p>Fue nominada en 2003 en los Premios Óscar en la categoría de "Mejor Película Animada"</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="hielo.html">Ver</a>
+                </div>
+                <small class="text-muted">10 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/el-extrano.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">Un policía oculta su verdadera identidad, para acercarse a un posible asesino y sacarle información.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="extrano.html">Ver</a>
+                </div>
+                <small class="text-muted">25 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/jefe.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">Un niño se ve implicado en una siniestra intriga corporativa, cuando sus padres llegan a casa con un bebé que resulta ser un experto en negocios.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="jefe.html">Ver</a>
+                </div>
+                <small class="text-muted">45 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/escuela.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">¿Dónde empiezan las historias reales en las que se basan los cuentos de hadas?  Esta es la escuela en la que los buenos se convierten en héroes y los malos en villanos.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="escuela.html">Ver</a>
+                </div>
+                <small class="text-muted">2 horas</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/harry1.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">Harry Potter es un niño huérfano criado por su tío Vernon y su tía Petunia que lo odian. Desde que era pequeño, estos siempre le han contado que sus padres murieron en un accidente de coche.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="harry1.html">Ver</a>
+                </div>
+                <small class="text-muted">5 horas</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/Harry3.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">Harry Potter y el prisionero de Azkaban es la tercera parte de la saga Harry Potter y fue dirigida por el cineasta mexicano Alfonso Cuarón (director de La princesita y Grandes esperanzas).</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="harry3.html">Ver</a>
+                </div>
+                <small class="text-muted">7 horas</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/anillo.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">La serie de televisión de El Señor de los Anillos: Los Anillos de Poder producida por Amazon Studios narran las historias que sucedieron antes de los acontecimientos de La Comunidad del Anillo, la novela de J.R.R Tolkien que adaptó al cine Peter Jackson en lo que fue la primera entrega de su trilogía sobre la Tierra Media y el Anillo Único.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="anillo.html">Ver</a>
+                </div>
+                <small class="text-muted">9 horas</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/shrek.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">2Shrek es el primer largometraje de la saga Shrek producida por DreamWorks y protagonizada por Mike Myers (Shrek), Eddie Murphy (Asno/Burro), Cameron Diaz (Fiona) y John Lithgow (Lord Farquaad).</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="shrek.html">Ver</a>
+                </div>
+                <small class="text-muted">10 horas</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin de contenedor -->
+  
+  <!-- Pie de Página -->
+  
+  <div class="container">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>VideoWeb</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Peliculas</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Destacadas</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Acción</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Humor</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Suspenso</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Series</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Destacadas</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Acción</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Humor</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Suspenso</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Suscríbite a nuestras newsletters.</h5>
+          <p>Recibí todas las últimas novedades.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscríbete</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2022 VideoWeb, Inc. Todos los derechos reservados.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+	<!-- Implementación -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
+</html>
